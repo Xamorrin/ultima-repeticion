@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
+import CartWidget from './CartWidget';
 import Logo from '../img/logo.png';
 
 function NavBar(){
@@ -28,9 +29,15 @@ function NavBar(){
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
+  <CartWidget />
 </Navbar>
   )
 }
+
+function ItemListContainer() {
+      <label>ASADSADASD</label>
+
+  }
 
 export default function App() {
   return (
